@@ -1,0 +1,120 @@
+header {
+    background-color: dodgerblue;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    font-family: arial;
+    color: white;
+    box-shadow: 4px 4px 5px black;
+}
+
+#conteudo {
+    background-color: lightseagreen;
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px black;
+    width: 60%;    
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.dados {
+    display: grid;
+    grid-template-rows: auto 50px;
+    place-items: center;
+    margin-bottom: 40px; 
+}
+
+main {
+    display: grid;
+    place-items: center;
+    margin: 20px;
+}
+
+body {
+    background-image: linear-gradient(blue, lightblue);
+    background-repeat: no-repeat;
+}
+
+.moedas {
+    background-color: transparent;
+    padding: 19px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.input {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 310px;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#atualizar, #calcular {
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: x-large;
+    border: 2px solid;
+    background-color: white;
+}
+
+#atualizar {
+    color: red;
+    border: 2px solid darkred;
+}
+
+#calcular {
+    color: green;
+    border: 2px solid green;
+}
+
+.info {
+    margin: 20px;
+}
+
+#tabela {
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+}
+
+span {
+    font-weight: bold;
+    font-family: arial;
+}
+
+hr {
+    border: 1px solid white;
+    padding-left: 400px;
+}
+
+table {
+    background-color: white;
+    font-family: arial;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: chartreuse;
+    border-collapse: collapse;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: 1px solid black;
+}
+
+td {
+    padding-left: 80px;
+    padding-right: 80px;
+    border: 1px solid black;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
